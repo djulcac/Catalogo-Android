@@ -38,7 +38,8 @@ public class MainActivity extends AppCompatActivity {
         new Hilo().execute("login",e1,e2);
     }
     public void usuarioPerfil(View view){
-        Intent intent = new Intent(this,UsuarioPerfil.class);
+        //Intent intent = new Intent(this,UsuarioPerfil.class);
+        Intent intent = new Intent(this,Main2Activity.class);
         startActivity(intent);
     }
     public void usuarioCrear(View view){
@@ -46,7 +47,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
     public void atajoBuscar(View view){
-        Intent intent = new Intent(this,ProductoBuscar.class);
+        //Intent intent = new Intent(this,ProductoBuscar.class);
+        //startActivity(intent);
+        Intent intent = new Intent(this,Main2Activity.class);
         startActivity(intent);
     }
     private void mostrar(String mensaje){

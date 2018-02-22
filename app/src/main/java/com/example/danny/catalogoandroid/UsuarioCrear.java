@@ -28,7 +28,8 @@ public class UsuarioCrear extends AppCompatActivity {
         textView1 = (TextView)findViewById(R.id.textView1);
     }
     public void aUsuarioPerfil(View view){
-        startActivity(new Intent(this,UsuarioPerfil.class));
+        //startActivity(new Intent(this,UsuarioPerfil.class));
+        startActivity(new Intent(this,Main2Activity.class));
     }
     public void crear(View view){
         String e1 = nombre.getText().toString();

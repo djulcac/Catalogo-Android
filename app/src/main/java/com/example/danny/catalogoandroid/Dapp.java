@@ -8,7 +8,7 @@ import android.app.Application;
 public class Dapp extends  Application{
     private String key="123456";
     private String nombre = "-.-";
-    private String usuario = "-.-";
+    private String usuario = "";
     private String contrasenha = "-.-";
     // temporales
     private Producto temProducto;
